@@ -78,4 +78,77 @@ h1{
 .nosotros p{
     padding-top: 20px;
 }
-
+#servicios{
+	
+	background: white;
+	
+	
+}
+.servicios{
+	text-align: center;
+	
+	padding-bottom: 50px;
+	
+}
+#tituloS h1{
+	color: orange;
+	
+	
+}
+#imageneServicio{
+	padding-top: 50px;
+}
+.servicios img{
+	width: 40%;
+	text-align: center;
+}
+#servicios2{
+padding-top: 20px;
+}
+.servicios h1{
+	color: #666;
+	font-weight: 100;
+}
+#galeria {
+	text-align: center;
+	color:rgb(240, 140, 74) ;
+  }
+  #galeria p{
+	color: black ;    
+  }
+  #ubicacion {
+	text-align: center;
+	color:rgb(240, 140, 74) ;
+  }
+  #ubicacion p{
+	color: black ;    
+  }
+  footer{
+	  background-color: rgba(231, 225, 225, 0.856);
+	  
+	  
+  }
+  footer h2{
+	  text-align: center;
+	  color:rgb(240, 140, 74);
+	 
+  }
+  
+  
+  footer h3{
+	  
+	  padding-top: 25px;
+	  text-align: left;
+	  font-size: 20px;
+	  margin-left: 25px;
+  
+  }
+  footer ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	
+  }
+  
+	
