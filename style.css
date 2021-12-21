@@ -1,3 +1,6 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .logo{
 	height: 70px;	
 }
@@ -6,8 +9,14 @@
 	align-items: center;
 	margin-top: 20px;
 }
-
-.botonera li{
+.bg-light{
+	background-color: white !important; 
+}
+.border-3{
+	border: none!important;
+}
+	
+#MenuNavegacion li{
 	padding-top: 20px;
 	display: inline-block;
 	margin-left: 8px;
@@ -15,18 +24,19 @@
 	font-size: 20px;
 	
 }
-.botonera li a{
+#MenuNavegacion li a{
 	color: orange;
 	text-decoration: none;
 	font-size: 15px;
 }
-.botonera li a:hover{
+#MenuNavegacion a:hover{
 	color: black;
 	text-decoration: none;
-	
 }
-
-
+	
+.navbar-light .navbar-toggler:hover{
+	background-color:rgb(255, 197, 91)!important ;
+}
 
 header{
 	background: white; 
@@ -111,44 +121,48 @@ padding-top: 20px;
 }
 #galeria {
 	text-align: center;
-	color:rgb(240, 140, 74) ;
+	color:orange;
   }
   #galeria p{
 	color: black ;    
   }
   #ubicacion {
 	text-align: center;
-	color:rgb(240, 140, 74) ;
+	color:orange ;
   }
   #ubicacion p{
 	color: black ;    
   }
-  footer{
-	  background-color: rgba(231, 225, 225, 0.856);
-	  
-	  
-  }
-  footer h2{
-	  text-align: center;
-	  color:rgb(240, 140, 74);
-	 
-  }
-  
-  
-  footer h3{
-	  
-	  padding-top: 25px;
-	  text-align: left;
-	  font-size: 20px;
-	  margin-left: 25px;
-  
-  }
-  footer ul li{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  #piepagina{
+	
+	padding-top: 20px;
+	background: #bdbdbd;
+}
+#piepagina h3{
+	text-align: center;
+	font-family: "Open Sans",sans-serif ;
+	font-size: 30px;
+	color:#212121;
+
+}
+#listaContactos{
+	padding-top: 15px;
+}
+
+#descripcion{
 	text-align: left;
+}
+
+#logoMail{
+	height: 70px;
+	padding:15PX;
 	
-  }
-  
+}
+#logoWsp{
+	height: 70px;
+	padding:15PX;
+}
+#home {
+	color: white;
 	
+}
