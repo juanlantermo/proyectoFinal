@@ -1,0 +1,68 @@
+body{
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+
+}
+header{
+	background: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 99%;
+    top: 0;
+	
+}
+nav{
+    
+}
+
+nav p{
+    text-align: left;
+}
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav li a {
+    color:rgb(240, 140, 74);
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  nav li a:hover {
+    
+    color: white;
+  }
+  .imagen{
+      margin-top: 15px;
+  }
+#quienes {
+    text-align: center;
+    color:rgb(240, 140, 74) ;
+}
+#quienes p{
+    color: black ;    
+}
+footer{
+    background-color: rgba(231, 225, 225, 0.856);
+}
+footer h2{
+    text-align: center;
+    color:rgb(240, 140, 74);
+}
+footer p{
+   text-align: left;
+   font-size: 14px;
+}
+
+footer h3{
+    
+    padding-top: 25px;
+    text-align: left;
+    font-size: 20px;
+
+}
