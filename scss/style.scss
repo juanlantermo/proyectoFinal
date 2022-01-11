@@ -1,6 +1,7 @@
 $redes:  (
 	whatsapp: rgb(37, 211, 102),
-	email: rgb(66, 133, 244)
+	email: rgb(66, 133, 244),
+	telefono: rgb(0,120,215)
 );
 @each $red, $color in $redes {
     .btn--#{$red} {
@@ -71,6 +72,7 @@ header {
 	width: 100%;
 	height: 850px;
 }
+
 .nosotros {
 	width: 100%;
 	text-align: center;
@@ -201,7 +203,10 @@ ul {
         background-color:rgb(66, 133, 244) ;
 }
 #piepagina ul li .whatsapp:hover{
-        background-color: rgb(37, 211, 102);
+        background-color:rgb(37, 211, 102);
+}
+#piepagina ul li .telefonito:hover{
+		background-color:white!important;
 }
 #listaContactos img {
     margin-bottom: 50px;
@@ -224,6 +229,7 @@ ul {
 	}
 }
 .cierre {
+	width: 100%;
 	background: rgb(66, 65, 65);
 	color: white;
 	text-align: left;
