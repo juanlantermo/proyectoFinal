@@ -239,6 +239,9 @@ header {
         height:400px;}
         #piepagina ul{
         margin-left: -55px;
-        padding-bottom: 30px;
+        padding-bottom: 30px;}
+        #piepagina img{
+          margin-top: 20px;
+          margin-bottom: 3px;
         }
       }
