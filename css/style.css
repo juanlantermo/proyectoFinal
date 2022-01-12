@@ -106,13 +106,11 @@ header {
   text-align: center;
   margin-top: 25px;
   padding-top: 20px;
-  padding-bottom: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 20px; }
+  padding-bottom: 50px; }
   #ubicacion h1 {
-    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
     color: orange; }
-
 .mapa {
   width: 100%; }
 #contactolin{
