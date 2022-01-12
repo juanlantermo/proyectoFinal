@@ -115,7 +115,14 @@ header {
 
 .mapa {
   width: 100%; }
-
+#contactolin{
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+#contactolin:hover {
+    background-size: 100% 2px; }
 #piepagina {
   margin-top: -40px;
   padding-top: 20px;
@@ -145,11 +152,12 @@ header {
     #piepagina ul li a {
       display: block;
       padding: 0 10px;
-      background: #333;
+      background: rgb(122, 120, 120);
       color: #fff;
       line-height: 50px;
       font-size: 30px;
       box-sizing: 0px 3 px 5px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
       transition: .2s; }
       #piepagina ul li a:hover {
         transform: translateY(-3px) scale(1.05);
