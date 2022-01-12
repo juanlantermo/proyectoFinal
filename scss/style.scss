@@ -1,17 +1,3 @@
-$redes:  (
-	whatsapp: rgb(37, 211, 102),
-	email: rgb(66, 133, 244),
-	telefono: rgb(0,120,215)
-);
-@each $red, $color in $redes {
-    .btn--#{$red} {
-        background-color: $color;
-    }
- };
- $Titulos:( 
-    tamaño: 30px,
-    Colorin: orange
- );
 body {
 	font-family: 'Open Sans', sans-serif;
 }
