@@ -192,6 +192,9 @@ header {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   text-align: left;}
+  #descripcion a{
+    color:#424141 ;
+  } 
   #descripcion a:link{
     text-decoration: none;}
 #map{
