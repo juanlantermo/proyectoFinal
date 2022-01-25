@@ -25,7 +25,7 @@ body {
     text-decoration: none;
     font-size: 15px; }
     #MenuNavegacion li a:hover {
-      color: black !important;
+      color: rgba(94, 92, 92, 0.616) !important;
       text-decoration: none; }
 
 .navbar-light .navbar-toggler{
@@ -50,7 +50,7 @@ header {
 
 #fondo {
   width: 100%;
-  height: 650px; }
+  height: 700px; }
 
 .nosotros {
   width: 100%;
@@ -100,7 +100,10 @@ header {
 
 .carousel-inner {
   padding-top: 20px !important;
-  width: 100% !important; }
+  width: 100% !important;
+  height: 700px}
+/* .carousel-inner img{
+  ;} */
 
 #ubicacion {
   text-align: center;
@@ -214,15 +217,17 @@ header {
   color: white;
   text-align: left; }
   .cierre p {
-    margin-left: 95px;
+    margin-left: 105px;
     font-size: 12px; }
 
   @media only screen and (max-device-width: 860px)  {
       #home{
       padding-top: 65px;}
+      .bg-light{
+      margin-top:-9px;
+      margin-left: 40px;}
       .logo{
-        padding-bottom: 20px;
-      }
+        padding-bottom: 20px;}
       #fondo{
         height:400px;}
       .botonera li a {
@@ -234,10 +239,10 @@ header {
       #servicios{
       margin-top: 150px;;}
       #galeria{
-        margin-bottom: 20px;
+        margin-bottom: 5px;
       }
       #ubicacion{
-        margin-top: -150px;}
+        margin-top: -400px;}
       .carousel-item{
         height:400px;}
         #piepagina ul{
@@ -247,4 +252,6 @@ header {
           margin-top: 20px;
           margin-bottom: 3px;
         }
+        .cierre p {
+          margin-left: 20px;}
       }
